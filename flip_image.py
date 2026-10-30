@@ -1,8 +1,7 @@
 from PIL import Image import numpy as np import matplotlib.pyplot as plt
 
 # Read image
-
-img = Image.open("image.jpg").convert("RGB")
+img = Image.open("C:\\Users\\54179\\OneDrive\\Desktop\\ankita\\GitHub\\digital-image-processing\image.jpg").convert("RGB")
 
 # Convert image to NumPy array img_array = np.array(img)
 
